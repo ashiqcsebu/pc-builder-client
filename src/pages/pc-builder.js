@@ -18,7 +18,7 @@ const PCBuilder = ({ initialData }) => {
   const handleCompleteBuild = () => {
     if (totalSelectedComponents >= 6) {
       router.push("/pc-builder");
-      alert("Product added to the card. Thanks for choosing Pc_Builder 😃");
+      alert("Product added to the card. Thanks for choosing Pc_Builder ");
       resetSelectedComponents();
     } else {
       alert("Please select at least 6 components to complete the build.");

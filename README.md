@@ -1,14 +1,17 @@
-# PC_Builder FrontEnd
+# PC Builder 
+
+## Live Link:
+https://pc-builder-main.vercel.app/
+
+# server site :
 https://pc-builder-backend-gold.vercel.app/api/pc-components
-## Live Link:[http://localhost:3000/](http://localhost:3000/)
 
-## FrontEnd_GitHub_Link: [https://github.com/JubayerAhmmodShuvo/Pc_Builder](https://github.com/JubayerAhmmodShuvo/Pc_Builder)
+## FrontEnd_GitHub_Link: https://github.com/ashiqcsebu/pc-builder-client
 
-## BackEnd_GitHub_Link: [https://github.com/JubayerAhmmodShuvo/Pc-Builder_Backend](https://github.com/JubayerAhmmodShuvo/Pc-Builder_Backend)
+## BackEnd_GitHub_Link: https://github.com/ashiqcsebu/pc-builder-server
 
 ### About the project
 
-```
 1. Home Page:
 When a user enters the application, they will be greeted with a captivating home page featuring a sliding image banner. Below the banner, there will be a section showcasing featured items from various categories. The home page will also include a footer for easy navigation.
 
@@ -23,12 +26,3 @@ For enhanced security and personalized features, we have integrated NextAuth int
 
 5. PC Builder Page:
 Once logged in, users can access the PC Builder page, where they can assemble their dream PC. Each category will have a selection of products, and users can add items to their build. The selected items will be displayed in a table format on the page. When the user has chosen the required components, the "Complete Build" button will be enabled. Clicking the button will trigger an alert confirming the addition to the cart, and the page will refresh for a seamless experience.
-
-```
-
-NEXTAUTH_SECRET=abc
-NEXTAUTH_URL=http://localhost:3000
-GITHUB_ID=d6cfdb353678b223331b
-GITHUB_SECRET=97b4b485976e24ab9537dbfee62294e15cac1889
-GOOGLE_CLIENT_ID=351062354965-6ov8sesoj0bid963itk9gbka1ue1mb7m.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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

@@ -17,8 +17,8 @@ const LoginPage = () => {
             className="cursor-pointer border"
             onClick={() =>
               signIn("google", {
-                // callbackUrl: "http://localhost:3000/",
-                callbackUrl: "http://localhost:3000/",
+                
+                callbackUrl: "https://pc-builder-main.vercel.app/",
               })
             }
           >
@@ -31,7 +31,7 @@ const LoginPage = () => {
             className="cursor-pointer"
             onClick={() =>
               signIn("github", {
-                callbackUrl: "http://localhost:3000/",
+                callbackUrl: "https://pc-builder-main.vercel.app/",
               })
             }
           >
