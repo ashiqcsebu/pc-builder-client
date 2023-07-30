@@ -88,7 +88,7 @@ const CategorySection = ({ category }) => {
                   <td className="border px-2 py-1">
                     {component._id === lastAddedProductId && (
                       <Link
-                        href={`/selecproduct/${category.replace(/\s/g, "-")}`}
+                        href={`/selectProduct/${category.replace(/\s/g, "-")}`}
                       >
                         <button className="btn btn-secondary text-white hover:text-black hover:bg-green-100 rounded-md">
                           Select
@@ -102,7 +102,7 @@ const CategorySection = ({ category }) => {
           </table>
         ) : (
           <div className="flex flex-col items-center justify-center w-full h-full">
-            <Link href={`/selecproduct/${category.replace(/\s/g, "-")}`}>
+            <Link href={`/selectProduct/${category.replace(/\s/g, "-")}`}>
               <div className="btn btn-secondary text-white px-4 py-2 w-36 hover:text-black hover:bg-green-100 rounded-md">
                 Select {categoryKey}
               </div>
