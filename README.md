@@ -4,11 +4,14 @@
 https://pc-builder-main.vercel.app/
 
 # server site :
-https://pc-builder-backend-gold.vercel.app/api/pc-components
+https://pc-builder-backend-main.vercel.app/
+https://pc-builder-backend-main.vercel.app/api/pc-components
 
-## FrontEnd_GitHub_Link: https://github.com/ashiqcsebu/pc-builder-client
+## FrontEnd_GitHub_Link:
+ https://github.com/ashiqcsebu/pc-builder-client
 
-## BackEnd_GitHub_Link: https://github.com/ashiqcsebu/pc-builder-server
+## BackEnd_GitHub_Link: 
+https://github.com/ashiqcsebu/pc-builder-server
 
 ### About the project
 
